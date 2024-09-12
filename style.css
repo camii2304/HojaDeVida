@@ -1,0 +1,219 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 40px;
+    padding: 20px;
+    background-color: rgba(253, 192, 232, 0.733);
+    box-shadow: 0 4px 8px #914d4d;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  
+    .header {
+        padding: 20px;
+        display: flex;
+        margin: 10px;
+        align-items: center;
+        justify-content: center;
+        background-color: #e78db4bb;
+        border-radius: 10px;
+    }
+.header-img {
+    margin: 40px;
+}
+    .header-text {
+        margin: 40px;
+        text-align: left;
+    }
+
+    .header-text h1 {
+        margin-top: 3px;
+        margin-bottom: 3px;
+        color:  rgb(83, 22, 75) ;
+    }
+
+    .header-text h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: rgb(255, 0, 170);
+    }
+
+    .profile-img {
+        width: 170px;
+        height: 170px;
+        border-radius: 50% ;
+    }
+
+    .descripcion {
+        padding: 20px;
+    }
+
+    .descripcion h2 {
+        text-align: center;
+        color: rgb(83, 15, 92) ;
+    margin: -5px;
+    }
+
+    .content-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .content-td {
+width: 80%;
+padding: 10px;
+vertical-align: top;
+    }
+
+    .content-td p
+    {
+        font-size: 1.1em;
+        color: rgb(255, 0, 170) ;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    .image-td {
+        width: 20%;
+        padding: 10px;
+        vertical-align: top;
+        justify-content: center;
+    }
+
+    .image-td img {
+        width: 170px;
+        height: 170px;
+       border-radius: 50%;
+    }
+
+    .contacto {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        background-color: rgba(255, 154, 209, 0.966) ;
+        gap: 20px;
+    }
+
+    .contacto p {
+        color: rgb(83, 15, 92)   
+    }
+
+
+    .contacto p :hover {
+        color: aliceblue;
+        cursor: pointer; 
+    }
+
+    .experiencia {
+        padding: 20px;
+    }
+
+    .experiencia h2 {
+      color: rgb(83, 15, 92)
+    }
+
+    .exp-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .exp-td {
+        width: 30%; 
+        padding: 10px; vertical-align: top; 
+    }
+
+    .exp-td b {
+        color: rgb(83, 15, 92)
+    }
+
+    .exp-td small {
+        color: rgb(83, 15, 92)
+    }
+
+    .exp-td img {
+        width: 350px ;
+        height: 250px;
+    }
+
+    .exp-td strong {
+        color: rgb(83, 15, 92)
+    }
+
+    .exp-td p {
+        color: rgb(255, 0, 170)
+    }
+
+.estudios {
+    padding: 20px;
+}
+
+.estudios h2 {
+    color: rgb(83, 15, 92)
+}
+
+.est-table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+.est-tr-1 {
+    background-color: rgba(255, 192, 255, 0.925); border-radius: 5px;
+}
+
+.est-td {
+    width: 30%; 
+    padding: 10px; 
+    vertical-align: top; 
+    color: rgb(83, 15, 92)
+}
+
+.est-tr-2 {
+    background-color: rgba(230, 168, 255, 0.925); border-radius: 5px;
+}
+
+.habilidades {
+    padding: 20px;
+}
+
+.habilidades h2 {
+    color: rgb(83, 15, 92)
+}
+
+.habilidad-table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+.habilidad-td {
+    width: 30%; 
+    padding: 10px; 
+    vertical-align: top; 
+    color: rgb(83, 15, 92)
+}
+
+.sub-h-td {
+    width: 70%; 
+    padding: 10px; 
+    vertical-align: top;
+}
+
+.sub-h-td div {
+    background-color: rgba(219, 195, 241, 0.705); border-radius: 5px; 
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden; padding: 5px
+}
+
+.sub-h-td div p {
+    color: rgb(255, 0, 170)
+}
